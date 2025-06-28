@@ -23,8 +23,7 @@ body {
 .c-firework::after {
 	content: "";
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	top: 60%;
 	aspect-ratio: 1;
 	background: radial-gradient(circle, #ff0 10px, #000 0) 50% 00%,
 		radial-gradient(circle, #ff0 10px, #000 0) 00% 50%,
@@ -48,4 +47,61 @@ body {
 }
 .c-firework::after {
 	transform: translate(-50%, -50%) rotate(-37deg) !important;
+}
+
+.c-firework:nth-child(2),
+.c-firework:nth-child(2)::before,
+.c-firework:nth-child(2)::after {
+	background: radial-gradient(circle, #f0f 10px, #000 0) 50% 00%,
+		radial-gradient(circle, #f0f 10px, #000 0) 00% 50%,
+		radial-gradient(circle, #f0f 10px, #000 0) 50% 99%,
+		radial-gradient(circle, #f0f 10px, #000 0) 99% 50%,
+		radial-gradient(circle, #f0f 10px, #000 0) 80% 90%,
+		radial-gradient(circle, #f0f 10px, #000 0) 95% 90%,
+		radial-gradient(circle, #f0f 10px, #000 0) 10% 60%,
+		radial-gradient(circle, #f0f 10px, #000 0) 31% 80%,
+		radial-gradient(circle, #f0f 10px, #000 0) 80% 10%,
+		radial-gradient(circle, #f0f 10px, #000 0) 90% 23%,
+		radial-gradient(circle, #f0f 10px, #000 0) 45% 20%,
+		radial-gradient(circle, #f0f 10px, #000 0) 13% 24%;
+	background-size: 4px 4px;
+	background-repeat: no-repeat;
+}
+
+.c-firework:nth-child(3),
+.c-firework:nth-child(3)::before,
+.c-firework:nth-child(3)::after {
+	background: radial-gradient(circle, #0ff 10px, #000 0) 50% 00%,
+		radial-gradient(circle, #0ff 10px, #000 0) 00% 50%,
+		radial-gradient(circle, #0ff 10px, #000 0) 50% 99%,
+		radial-gradient(circle, #0ff 10px, #000 0) 99% 50%,
+		radial-gradient(circle, #0ff 10px, #000 0) 80% 90%,
+		radial-gradient(circle, #0ff 10px, #000 0) 95% 90%,
+		radial-gradient(circle, #0ff 10px, #000 0) 10% 60%,
+		radial-gradient(circle, #0ff 10px, #000 0) 31% 80%,
+		radial-gradient(circle, #0ff 10px, #000 0) 80% 10%,
+		radial-gradient(circle, #0ff 10px, #000 0) 90% 23%,
+		radial-gradient(circle, #0ff 10px, #000 0) 45% 20%,
+		radial-gradient(circle, #0ff 10px, #000 0) 13% 24%;
+	background-size: 4px 4px;
+	background-repeat: no-repeat;
+}
+
+.c-firework:nth-child(4),
+.c-firework:nth-child(4)::before,
+.c-firework:nth-child(4)::after {
+	background: radial-gradient(circle, #f80 10px, #000 0) 50% 00%,
+		radial-gradient(circle, #f80 10px, #000 0) 00% 50%,
+		radial-gradient(circle, #f80 10px, #000 0) 50% 99%,
+		radial-gradient(circle, #f80 10px, #000 0) 99% 50%,
+		radial-gradient(circle, #f80 10px, #000 0) 80% 90%,
+		radial-gradient(circle, #f80 10px, #000 0) 95% 90%,
+		radial-gradient(circle, #f80 10px, #000 0) 10% 60%,
+		radial-gradient(circle, #f80 10px, #000 0) 31% 80%,
+		radial-gradient(circle, #f80 10px, #000 0) 80% 10%,
+		radial-gradient(circle, #f80 10px, #000 0) 90% 23%,
+		radial-gradient(circle, #f80 10px, #000 0) 45% 20%,
+		radial-gradient(circle, #f80 10px, #000 0) 13% 24%;
+	background-size: 4px 4px;
+	background-repeat: no-repeat;
 }
